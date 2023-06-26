@@ -112,7 +112,7 @@ for episodes in range(1, episodes+1):
         score += reward  # accumulating our reward
     print("Episode:{} Score: {}".format(episodes, score))
 env.close()  # close down the render frame
-
+ 
 
 
 
