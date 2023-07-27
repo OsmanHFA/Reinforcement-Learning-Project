@@ -12,3 +12,5 @@ Project Objectives:
 Project was simulated on gym software package.
 
 Note: The trained model files were too big to upload in Github but the final tuned model with the modified reward function is available on video
+
+Youtube Link: https://www.youtube.com/watch?v=yjYtkqSSqi0 
