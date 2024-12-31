@@ -28,7 +28,7 @@ class CustomCarRacingEnv(gym.Env):
             # Penalize sudden steering changes
             if self.prev_steering is not None:
                 steering_change = abs(steering - self.prev_steering)
-                steering_penalty = steering_change * 50  # Adjust the scaling factor as needed
+                steering_penalty = steering_change * 50  # ADJUSTING SCALING FACTOR
                 modified_reward = original_reward - steering_penalty
             else:
                 modified_reward = original_reward
